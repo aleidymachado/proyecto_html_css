@@ -1,2 +1,2 @@
-# proyecto_html_css
-Proyecto elaborado usando solo html y css
+# Proyecto realizado usando únicamente html y css
+Página web de una empresa de ciencia de datos.
