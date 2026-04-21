@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <title>Trabajo Final</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico?v=2">
+
+</head>
+
+<body>
+
+    <header id="inicio">
+        <nav class="menu">
+
+            <div class="logo">
+
+                <img class="img_form" src= "../assets/images/iconoModel_canva2-sinFondo.png" alt="">
+                
+                <ul class="lista">
+                    <li><a class="enlace " href="../index.html" >Inicio</a></li>
+                    <li><a class="enlace" href="./productos.html">Productos</a></li>
+                    <li><a class="enlace activo" href="#">Formulario</a></li>
+                    <li><a class="enlace" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+    <main>
+        <section class="presupuesto" id="presupuesto">
+            <div class="bisel_arriba"></div>
+            <div class="transp_form"></div>
+            <div class="sobreponer_img">
+                <div class="form_container">
+                    <div class="form_title">
+                        <h2>Formulario</h2>
+                        <hr>
+                    </div> 
+                    <div class="formulario">  
+                        <form id="formulario">
+                            <Label for="nombre">*Nombre y apellido</Label>
+                            <input type="text"  id="nombre" name="nombre" placeholder="Escriba su nombre y apellido"
+                            pattern="[a-zA-Z]{5-20}" title="Escriba entre 5 y 20 letras.Sólo letras" required>
+
+                            <label for="email">*Email</label>
+                            <input type="email" id="email" name="email" placeholder="Escribe tú correo electrónico"
+                            pattern="'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)
+                            +[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" title="Escribe tu email,respetando su estructura" required>
+
+                            <label for="telefono">*Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Escribe tú teléfono" pattern="[0-9] {9}"
+                            title="Escriba 9 números.Sólo números" required >
+
+                            <label for="informacion">*Solicite más información</label>
+                            <textarea id="informacion" name="informacion" placeholder="Escriba aquí su duda" required> </textarea>
+                            <div class="display_flex">
+                                <button type="submit" class="enviar">Enviar</button>
+                                <button type="reset"  class="borrar">Borrar</button>
+                            </div>
+                            <p id="enviar">Escríbenos tus dudas, con gusto las aclararemos en el menor tiempo posible</p>
+                        </form>
+                
+                            <div class="pol_privac">
+                        
+                                <p><span>Política de privacidad</span></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit habitant, accumsan justo
+                                hendrerit litora urna orci tempor cubilia, consequat magnis id laoreet convallis
+                                ad mus. Non vehicula semper egestas augue et, convallis natoque porttitor conubia
+                                rutrum, purus odio nisl inceptos. Purus fermentum ad class ultricies montes mi 
+                                interdum hendrerit aptent tortor, nostra id natoque condimentum nisl cubilia integer
+                                faucibus volutpat quisque, duis conubia suspendisse consequat vulputate vel magna 
+                                nullam penatibus. Mollis donec metus arcu dictum at risus faucibus, tellus felis sed
+                                dapibus curabitur fringilla etiam bibendum, urna viverra quis tempor platea taciti.</p>
+
+                                <p>Integer velit risus primis aptent posuere dictumst feugiat ornare massa bibendum, 
+                                commodo vulputate dapibus pharetra molestie nisi interdum malesuada sociosqu euismod,
+                                id magnis faucibus convallis maecenas proin blandit vel diam. Mi ante scelerisque 
+                                commodo sem pharetra sociis condimentum, maecenas facilisis facilisi metus turpis 
+                                nisi lectus phasellus, est risus ridiculus elementum donec class. Quam lacus proin 
+                                eleifend fermentum nisi per purus potenti, praesent a mus litora luctus 
+                                risus, platea ridiculus viverra ad volutpat semper at. Ante mi ut ullamcorper aliquam
+                                eget duis justo blandit commodo primis orci, nostra aenean natoque aptent pretium 
+                                hendrerit id nulla sapien himenaeos.</p>
+                                    
+                                <p>Conubia nostra rutrum tempor facilisis netus elementum ullamcorper turpis lectus,
+                                congue habitasse a vulputate penatibus senectus quis primis, feugiat non fames 
+                                condimentum laoreet pellentesque etiam erat. Tempor mi dis lacus quisque tincidunt
+                                aliquam, suspendisse imperdiet metus turpis interdum penatibus praesent, placerat 
+                                duis pharetra tempus senectus. Rhoncus ligula nec commodo fringilla quam turpis 
+                                metus aliquet suspendisse, sed dignissim semper in vivamus purus pharetra faucibus
+                                enim rutrum, inceptos sapien praesent quisque ultrices tempor curae ante.</p>
+                                
+                                
+                            </div>    
+                            <div class="check_alt"> 
+                                <div class="model">
+                                    <label for="Model8_LLC"></label>
+                                    <input type="checkbox" id="Model8_LLC" required>
+                                    <a href="#"> *He leido y acepto la política de privacidad</a>
+                                </div>
+                                
+                                <div class="alterisco">
+                                    <p> (*) Los campos marcados con alteriscos son obligatorios</p>
+                                </div>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+            </div>   
+        </section>
+</main>
+<footer>
+    <div class="contenedor_footer">
+
+        <div class="contenedor_foot">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/model8-llc-194aa7284/">
+                <img class="img_linkedin"  src="../assets/images/icono_linkedin_c.png" alt="icono de linkedin"></a>
+            </div>
+        
+            <div class="sourceForge">
+                <a href="https://sourceforge.net/u/model8/profile/">
+                <img class="img_sourceForge" src="../assets/images/icono_sourceForge.png" alt="icono de sourceForge"></a>
+            </div>
+        
+            <div class="mastodon">
+                <a href="https://mastodon.social/@model8">
+                <img class="img_mastodon" src="../assets/images/icono_mastodon.png" alt="icono de mastodon"></a>
+            </div>
+        
+
+        </div> 
+
+
+        <div class="contenedor_foot">
+            <h4>Teléfono</h4>
+            <p>00000000</p>
+        </div>
+
+        <div class="contenedor_foot">
+            <h4>Email</h4>
+            <p>aleidymachado@gmail.com</p>
+        </div>
+
+        <div class="contenedor_foot">
+            <h4>Dirección</h4>
+            <p>Calle Fuente Nueva - Granada España</p>
+        </div>
+
+        <div class="contenedor_foot">
+            <h4><a href="#">Aspectos legales</a></h4>
+            <p></p>
+        </div>
+
+    </div>
+    <h2 class="titulo_final">&copy;Model8 LLC -23 | Todos los derechos reservados</h2>
+</footer>
+</body>
+</html>           
